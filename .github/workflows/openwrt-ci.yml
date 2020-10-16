@@ -235,7 +235,7 @@ jobs:
           #
           # Image Options
           #
-          CONFIG_TARGET_ROOTFS_PARTSIZE=160
+          CONFIG_TARGET_ROOTFS_PARTSIZE=1600
           # end of Target Images
           
           #
