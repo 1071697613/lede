@@ -73,7 +73,7 @@ jobs:
           # 例如:
 
           cat >> .config <<EOF
-          #
+          		  #
           # Automatically generated file; DO NOT EDIT.
           # OpenWrt Configuration
           #
@@ -2189,7 +2189,7 @@ jobs:
           # CONFIG_PACKAGE_kmod-lib-cordic is not set
           CONFIG_PACKAGE_kmod-lib-crc-ccitt=y
           # CONFIG_PACKAGE_kmod-lib-crc-itu-t is not set
-          # CONFIG_PACKAGE_kmod-lib-crc16 is not set
+          CONFIG_PACKAGE_kmod-lib-crc16=y
           CONFIG_PACKAGE_kmod-lib-crc32c=y
           # CONFIG_PACKAGE_kmod-lib-crc7 is not set
           # CONFIG_PACKAGE_kmod-lib-crc8 is not set
@@ -2354,7 +2354,7 @@ jobs:
           # CONFIG_PACKAGE_kmod-igb is not set
           # CONFIG_PACKAGE_kmod-ixgbe is not set
           # CONFIG_PACKAGE_kmod-ixgbevf is not set
-          # CONFIG_PACKAGE_kmod-libphy is not set
+          CONFIG_PACKAGE_kmod-libphy=y
           CONFIG_PACKAGE_kmod-macvlan=y
           # CONFIG_PACKAGE_kmod-mdio-gpio is not set
           CONFIG_PACKAGE_kmod-mii=y
@@ -2578,7 +2578,7 @@ jobs:
           # USB Support
           #
           # CONFIG_PACKAGE_kmod-chaoskey is not set
-          # CONFIG_PACKAGE_kmod-usb-acm is not set
+          CONFIG_PACKAGE_kmod-usb-acm=y
           # CONFIG_PACKAGE_kmod-usb-atm is not set
           # CONFIG_PACKAGE_kmod-usb-cm109 is not set
           CONFIG_PACKAGE_kmod-usb-core=y
@@ -2594,56 +2594,56 @@ jobs:
           CONFIG_PACKAGE_kmod-usb-hid=y
           # CONFIG_PACKAGE_kmod-usb-ledtrig-usbport is not set
           CONFIG_PACKAGE_kmod-usb-net=y
-          # CONFIG_PACKAGE_kmod-usb-net-asix is not set
+          CONFIG_PACKAGE_kmod-usb-net-asix=y
           # CONFIG_PACKAGE_kmod-usb-net-asix-ax88179 is not set
-          # CONFIG_PACKAGE_kmod-usb-net-cdc-eem is not set
+          CONFIG_PACKAGE_kmod-usb-net-cdc-eem=y
           CONFIG_PACKAGE_kmod-usb-net-cdc-ether=y
           CONFIG_PACKAGE_kmod-usb-net-cdc-mbim=y
           CONFIG_PACKAGE_kmod-usb-net-cdc-ncm=y
           CONFIG_PACKAGE_kmod-usb-net-cdc-subset=y
-          # CONFIG_PACKAGE_kmod-usb-net-dm9601-ether is not set
-          # CONFIG_PACKAGE_kmod-usb-net-hso is not set
+          CONFIG_PACKAGE_kmod-usb-net-dm9601-ether=y
+          CONFIG_PACKAGE_kmod-usb-net-hso=y
           CONFIG_PACKAGE_kmod-usb-net-huawei-cdc-ncm=y
-          # CONFIG_PACKAGE_kmod-usb-net-ipheth is not set
-          # CONFIG_PACKAGE_kmod-usb-net-kalmia is not set
-          # CONFIG_PACKAGE_kmod-usb-net-kaweth is not set
-          # CONFIG_PACKAGE_kmod-usb-net-mcs7830 is not set
-          # CONFIG_PACKAGE_kmod-usb-net-pegasus is not set
+          CONFIG_PACKAGE_kmod-usb-net-ipheth=y
+          CONFIG_PACKAGE_kmod-usb-net-kalmia=y
+          CONFIG_PACKAGE_kmod-usb-net-kaweth=y
+          CONFIG_PACKAGE_kmod-usb-net-mcs7830=y
+          CONFIG_PACKAGE_kmod-usb-net-pegasus=y
           # CONFIG_PACKAGE_kmod-usb-net-pl is not set
           CONFIG_PACKAGE_kmod-usb-net-qmi-wwan=y
           CONFIG_PACKAGE_kmod-usb-net-rndis=y
           # CONFIG_PACKAGE_kmod-usb-net-rtl8150 is not set
           # CONFIG_PACKAGE_kmod-usb-net-rtl8152 is not set
           CONFIG_PACKAGE_kmod-usb-net-sierrawireless=y
-          # CONFIG_PACKAGE_kmod-usb-net-smsc95xx is not set
+          CONFIG_PACKAGE_kmod-usb-net-smsc95xx=y
           # CONFIG_PACKAGE_kmod-usb-net-sr9700 is not set
           # CONFIG_PACKAGE_kmod-usb-net2280 is not set
           CONFIG_PACKAGE_kmod-usb-ohci=y
           CONFIG_PACKAGE_kmod-usb-ohci-pci=y
           # CONFIG_PACKAGE_kmod-usb-printer is not set
           CONFIG_PACKAGE_kmod-usb-serial=y
-          # CONFIG_PACKAGE_kmod-usb-serial-ark3116 is not set
-          # CONFIG_PACKAGE_kmod-usb-serial-belkin is not set
-          # CONFIG_PACKAGE_kmod-usb-serial-ch341 is not set
-          # CONFIG_PACKAGE_kmod-usb-serial-cp210x is not set
-          # CONFIG_PACKAGE_kmod-usb-serial-cypress-m8 is not set
+          CONFIG_PACKAGE_kmod-usb-serial-ark3116=y
+          CONFIG_PACKAGE_kmod-usb-serial-belkin=y
+          CONFIG_PACKAGE_kmod-usb-serial-ch341=y
+          CONFIG_PACKAGE_kmod-usb-serial-cp210x=y
+          CONFIG_PACKAGE_kmod-usb-serial-cypress-m8=y
           # CONFIG_PACKAGE_kmod-usb-serial-dmx_usb_module is not set
           # CONFIG_PACKAGE_kmod-usb-serial-edgeport is not set
-          # CONFIG_PACKAGE_kmod-usb-serial-ftdi is not set
+          CONFIG_PACKAGE_kmod-usb-serial-ftdi=y
           # CONFIG_PACKAGE_kmod-usb-serial-garmin is not set
-          # CONFIG_PACKAGE_kmod-usb-serial-ipw is not set
-          # CONFIG_PACKAGE_kmod-usb-serial-keyspan is not set
-          # CONFIG_PACKAGE_kmod-usb-serial-mct is not set
-          # CONFIG_PACKAGE_kmod-usb-serial-mos7720 is not set
-          # CONFIG_PACKAGE_kmod-usb-serial-mos7840 is not set
+          CONFIG_PACKAGE_kmod-usb-serial-ipw=y
+          CONFIG_PACKAGE_kmod-usb-serial-keyspan=y
+          CONFIG_PACKAGE_kmod-usb-serial-mct=y
+          CONFIG_PACKAGE_kmod-usb-serial-mos7720=y
+          CONFIG_PACKAGE_kmod-usb-serial-mos7840=y
           CONFIG_PACKAGE_kmod-usb-serial-option=y
-          # CONFIG_PACKAGE_kmod-usb-serial-oti6858 is not set
-          # CONFIG_PACKAGE_kmod-usb-serial-pl2303 is not set
-          # CONFIG_PACKAGE_kmod-usb-serial-qualcomm is not set
+          CONFIG_PACKAGE_kmod-usb-serial-oti6858=y
+          CONFIG_PACKAGE_kmod-usb-serial-pl2303=y
+          CONFIG_PACKAGE_kmod-usb-serial-qualcomm=y
           CONFIG_PACKAGE_kmod-usb-serial-sierrawireless=y
           # CONFIG_PACKAGE_kmod-usb-serial-simple is not set
-          # CONFIG_PACKAGE_kmod-usb-serial-ti-usb is not set
-          # CONFIG_PACKAGE_kmod-usb-serial-visor is not set
+          CONFIG_PACKAGE_kmod-usb-serial-ti-usb=y
+          CONFIG_PACKAGE_kmod-usb-serial-visor=y
           CONFIG_PACKAGE_kmod-usb-serial-wwan=y
           # CONFIG_PACKAGE_kmod-usb-serial-xr_usb_serial_common is not set
           # CONFIG_PACKAGE_kmod-usb-storage is not set
